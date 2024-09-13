@@ -9,7 +9,7 @@ namespace Tyuiu.YakovlevVAa.Sprint0.Task2.V0.Test
         {
             var name = "Виктор";
             var res = DataService.GetMessage(name);
-            Assert.AreEqual("Привет, Виктор", res);
+            Assert.AreEqual("Привет..., Виктор", res);
         }
     }
 }
